@@ -1,0 +1,467 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+  font-family: "Times New Roman", Times, serif;
+  background-color: hsl(220deg 43% 97%);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  flex-wrap: wrap;
+}
+.logo {
+  width: 200px;
+}
+.logo img {
+  width: 100%;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.menu a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.menu .btn {
+  background-color: hsl(163deg 82% 43%);
+  color: hsl(178deg 100% 93%);
+  padding: 10px 30px;
+  border-radius: 60px;
+  font-size: 1.4rem;
+}
+main {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.info {
+  width: 50%;
+  margin-top: 40px;
+}
+.info h1 {
+  line-height: 80px;
+  text-transform: uppercase;
+  font-size: 3.8rem;
+}
+.info b {
+  color: hsl(163deg 84% 42%);
+}
+.info p {
+  font-weight: 900;
+  font-size: 1.9rem;
+}
+.buttons {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+}
+.buttons button {
+  all: inherit;
+  display: flex;
+  justify-content: center;
+  font-weight: 900;
+  background-color: hsl(163deg 82% 43%);
+  color: hsl(178deg 100% 93%);
+  padding: 14px 20px;
+  border-radius: 60px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+}
+.Infoimg {
+  width: 30%;
+}
+.Infoimg img {
+  width: 100%;
+}
+#About {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.Group1 {
+  width: 45%;
+}
+.Group1 img {
+  width: 100%;
+}
+.Aboutinfo {
+  width: 50%;
+  margin-top: 40px;
+  padding-right: 68px;
+}
+.Aboutinfo h1 {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: hsl(163deg 82% 43%);
+}
+.social {
+  margin-top: 70px;
+}
+.Aboutinfo p {
+  font-weight: 900;
+  font-size: 2.06rem;
+  margin-top: 80px;
+}
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 60px;
+}
+#Service {
+  display: flex;
+  padding: 40px;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 100px;
+}
+.maincard {
+  height: 42rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  border: #7a7a7e 2px solid;
+  border-radius: 20px;
+  box-shadow: 0px 1px 18px 1px #baa0a0;
+  padding: 20px;
+}
+.maincard h1 {
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: hsl(163deg 82% 43%);
+}
+.maincard img {
+  width: 20%;
+  margin-top: 100px;
+}
+.maincard p {
+  margin-top: 100px;
+  font-size: 1.5rem;
+}
+.scard {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 67%;
+}
+.scard h1 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  color: hsl(163deg 82% 43%);
+  font-weight: 900;
+}
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border: #7a7a7e 2px solid;
+  border-radius: 20px;
+  box-shadow: 0px 1px 18px 1px #baa0a0;
+  padding: 20px;
+  gap: 20px;
+}
+.card img {
+  width: 50%;
+}
+#Process {
+  margin-top: 100px;
+}
+.PHead {
+  text-align: center;
+}
+.PHead h1 {
+  font-size: 2.4rem;
+}
+.PHead b {
+  color: hsl(163deg 84% 42%);
+}
+.svgs {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 20px;
+  padding-left: 100px;
+  flex-wrap: wrap;
+}
+.svgImg {
+  text-align: center;
+  width: 24%;
+  padding: 10px 40px;
+}
+.svgImg h2 {
+  font-size: 1.4rem;
+  margin-top: 20px;
+}
+.svgImg img {
+  width: 60%;
+}
+.client {
+  margin-top: 40px;
+}
+.chead {
+  text-align: center;
+}
+.client h1 {
+  color: hsl(163deg 84% 42%);
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+.look {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.clook {
+  width: 30%;
+}
+.clook img {
+  width: 100%;
+}
+.jobInfo {
+  margin-top: 40px;
+  text-align: center;
+  padding: 40px;
+}
+.jobInfo p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.jobInfo1 {
+  margin-top: 40px;
+  text-align: center;
+  padding: 40px;
+}
+
+.jobInfo1 p {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+footer {
+  padding: 40px;
+  background-color: #fff;
+}
+.calend {
+  min-width: 320px;
+  height: 650px;
+}
+
+/* <!-- ======================MEDIA QURIES========================= --> */
+
+@media only screen and (max-width: 1000px) {
+}
+
+/* <!-- ======================MEDIA QURIES========================= --> */
+
+/*Small Laptops*/
+@media screen and (max-width: 992px) and (min-width: 768px) {
+}
+
+/*Tablet Devices*/
+@media screen and (max-width: 767px) and (min-width: 520px) {
+}
+
+/*Mobile Devices*/
+@media screen and (max-width: 519px) and (min-width: 320px) {
+  .menu {
+    display: none;
+  }
+  header {
+    justify-content: center;
+    align-items: center;
+  }
+  #About {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  #Service {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .scard {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .svgImg img {
+    width: 100%;
+  }
+  .logo {
+    width: 40%;
+  }
+  main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .info h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  .info p {
+    font-size: 15px;
+  }
+
+  .buttons button {
+    all: inherit;
+    font-weight: 900;
+    background-color: hsl(163deg 82% 43%);
+    color: hsl(178deg 100% 93%);
+    padding: 9px 17px;
+    border-radius: 60px;
+    font-size: 12px;
+    cursor: pointer;
+    width: 200px;
+    text-align: center;
+  }
+  .buttons {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .Infoimg {
+    width: 90%;
+    margin: 45px 17px;
+  }
+  .Aboutinfo {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    flex-direction: column;
+  }
+  .Aboutinfo p {
+    font-weight: 900;
+    font-size: 16px;
+    margin-top: 40px;
+  }
+  h2.social {
+    text-transform: uppercase;
+    font-size: 15px;
+    color: hsl(163deg 82% 43%);
+  }
+  .Group1 {
+    width: 90%;
+    margin-top: 80px;
+  }
+  .maincard {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: #7a7a7e 2px solid;
+    border-radius: 20px;
+    box-shadow: 0px 1px 18px 1px #baa0a0;
+    padding: 20px;
+  }
+
+  .maincard h1 {
+    margin-top: 83px;
+    text-transform: uppercase;
+    font-size: 38px;
+    color: hsl(163deg 82% 43%);
+  }
+  .maincard p {
+    margin-top: 90px;
+    font-size: 22px;
+  }
+
+  .maincard img {
+    width: 20%;
+    margin-top: 50px;
+    transform: rotate(90deg);
+  }
+
+  .scard h1 {
+    font-size: 23px;
+  }
+  .card {
+    height: auto;
+    width: 100%;
+  }
+  .card p {
+    font-size: 20px;
+  }
+  .card img {
+    width: 70%;
+  }
+  .PHead h1 {
+    font-size: 40px;
+  }
+  .svgs {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0px;
+  }
+  .svgImg {
+    width: 100%;
+    margin: 30px 0px;
+  }
+
+  .clook {
+    width: 100%;
+  }
+  .look {
+    flex-direction: column;
+  }
+  .client h1 {
+    color: hsl(163deg 84% 42%);
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .jobInfo p {
+    font-size: 16px;
+    margin-top: 32px;
+    font-weight: bold;
+  }
+  .jobInfo1 p {
+    font-size: 16px;
+    margin-top: 12px;
+    font-weight: bold;
+  }
+}
