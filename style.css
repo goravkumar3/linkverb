@@ -104,11 +104,14 @@ main {
 }
 .Aboutinfo h1 {
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 40px;
   color: hsl(163deg 82% 43%);
 }
 .social {
+  color: hsl(163deg 82% 43%);
+  text-transform: uppercase;
   margin-top: 70px;
+  font-size: 40px;
 }
 .Aboutinfo p {
   font-weight: 900;
@@ -196,6 +199,7 @@ main {
   text-align: center;
 }
 .PHead h1 {
+  text-transform: uppercase;
   font-size: 2.4rem;
 }
 .PHead b {
