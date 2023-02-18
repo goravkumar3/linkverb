@@ -129,7 +129,7 @@ main {
   margin-top: 100px;
 }
 .maincard {
-  height: 42rem;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -178,9 +178,13 @@ main {
   box-shadow: 0px 1px 18px 1px #baa0a0;
   padding: 20px;
   gap: 20px;
+  height: auto;
 }
 .card img {
   width: 50%;
+}
+.card1{
+  margin-top: 20px;
 }
 #Process {
   margin-top: 100px;
