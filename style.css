@@ -29,7 +29,7 @@ header {
 .menu a {
   text-decoration: none;
   color: #000;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 900;
 }
 .menu .btn {
@@ -37,7 +37,7 @@ header {
   color: hsl(178deg 100% 93%);
   padding: 10px 30px;
   border-radius: 60px;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 main {
   margin-top: 40px;
