@@ -5,7 +5,7 @@
 }
 body {
   overflow-x: hidden;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Poppins', sans-serif;
   background-color: hsl(220deg 43% 97%);
 }
 header {
@@ -52,7 +52,6 @@ main {
 .info h1 {
   line-height: 80px;
   text-transform: uppercase;
-  font-size: 3.8rem;
 }
 .info b {
   color: hsl(163deg 84% 42%);
