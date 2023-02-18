@@ -301,8 +301,16 @@ footer {
     display: none;
   }
   header {
+    width: 100%;
     justify-content: center;
     align-items: center;
+  }
+  .logo{
+    width: 100%;
+    margin: 0;
+  }
+  .logo img{
+    width: 100%;
   }
   #About {
     flex-direction: column-reverse;
@@ -322,9 +330,6 @@ footer {
   }
   .svgImg img {
     width: 100%;
-  }
-  .logo {
-    width: 40%;
   }
   main {
     flex-direction: column;
