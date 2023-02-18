@@ -186,8 +186,11 @@ main {
 .card img {
   width: 50%;
 }
+.cardI{
+  margin-top: 10px;
+}
 .card1{
-  margin-top: 25px;
+  margin-top: 10px;
 }
 .card2{
   margin-top: 10px;
