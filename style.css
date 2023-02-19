@@ -12,12 +12,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 20px;
+  padding: 0px 60px;
   flex-wrap: wrap;
 }
 .logo {
   width: 200px;
-  margin-left: 54px;
 }
 .logo img {
   width: 100%;
@@ -26,6 +25,7 @@ header {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-right: 78px;
 }
 .menu a {
   text-decoration: none;
@@ -35,9 +35,9 @@ header {
 .menu .btn {
   background-color: hsl(163deg 82% 43%);
   color: hsl(178deg 100% 93%);
-  padding: 10px 30px;
+  padding: 10px 20px;
   border-radius: 60px;
-  font-size: 1.2rem;
+  font-size: 16px;
 }
 main {
   margin-top: 40px;
